@@ -36,9 +36,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [X] Create a forked copy of this project.
+- [X] Add TL as collaborator on GitHub.
+- [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
 - [ ] Implement the project on this branch, committing changes regularly.
 - [ ] Push commits: `git push origin <firstName-lastName>`.
@@ -89,8 +89,8 @@ Create 3 page components to display data from 3 API endpoints:
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
 - `https://rickandmortyapi.com/api/location/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
 - `https://rickandmortyapi.com/api/episode/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
-- You will need to add a EpisodeList and EpisodeCard component yourself.
-- [ ] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
+- [X] You will need to add a EpisodeList and EpisodeCard component yourself.
+- [X] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
 - [ ] Create a component to show a grid of data from the API.
   - [ ] Include `useState`, `useEffect`.
   - [ ] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
@@ -100,7 +100,7 @@ Create 3 page components to display data from 3 API endpoints:
   - [ ] Use a styling or component library for part of or all of your application. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [React Bootstrap](https://react-bootstrap.github.io/), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)), etc.
   - [ ] Before adding routing, 'spot' check each component manually by importing into `App.js` and adding to JSX.
 
-> 💡**Reminder:** `git commit -am 'Card UI Loading Data Successfully'`
+> 💡**Reminder:** `git commit -m 'Card UI Loading Data Successfully'`
 
 ### Part 2
 

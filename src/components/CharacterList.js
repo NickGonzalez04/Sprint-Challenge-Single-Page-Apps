@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from "react";
 import axios from 'axios';
+import CharacterCard from './CharacterCard,js';
 
 
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
-  const [character, setCharacter] = useState();
+  const [character, setCharacter] = useState([]);
 
   useEffect(() => {
   

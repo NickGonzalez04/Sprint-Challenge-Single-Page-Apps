@@ -7,7 +7,8 @@ export default function CharacterCard() {
     <Image src={char.image} wrapped ui={false}/>
     <Card.Content>
       <Card.Header>{char.name}</Card.Header>
-      <Card.Meta>Data</Card.Meta>
+      <Card.Meta>{char.species}</Card.Meta>
+      <Card.Meta>{char.gender}</Card.Meta>
       <Card.Description>{char.location}</Card.Description>
     </Card.Content>
     <Card.Content extra>

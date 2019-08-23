@@ -8,8 +8,7 @@ export default function LocationCard({loc}) {
       <Card.Content>
           <Card.Header>{loc.name}</Card.Header>
           <Card.Meta>{loc.type}</Card.Meta>
-          {/* <Card.Meta>{locale.dimension}</Card.Meta> */}
-          <Card.Description>{loc.dimension}}</Card.Description>
+          <Card.Description>{loc.dimension}</Card.Description>
       </Card.Content>
     </Card>
 

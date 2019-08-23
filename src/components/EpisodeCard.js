@@ -1,11 +1,11 @@
 import React from 'react';
 
 // semantic UI card 
-const CharacterList = props =>{
+const EpisodeCard = props =>{
     return (
 
     )
 }
 
 
-export default CharacterList;
+export default EpisodeCard;

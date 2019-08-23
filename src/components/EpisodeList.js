@@ -25,7 +25,6 @@ axios
 
   return (
     <section className="character-list grid-view">
-      <h2>TODO: `array.map()` over your state here!</h2>
       {episode.map(epi =>{
         return <EpisodeCard key={epi.id} epi={epi}/>
       })}

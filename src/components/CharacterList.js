@@ -6,6 +6,7 @@ import CharacterCard from './CharacterCard,js';// imported character card and co
 
 export default function CharacterList() {
   // TODO: Add useState to track data from useEffect
+  console.log('props');
   const [character, setCharacter] = useState([]);
 
   useEffect(() => {

@@ -24,8 +24,8 @@ In this challenge, you will create a Single Page Application complete with Clien
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question.
 
-- [ ] Explain benefit(s) using `client-side routing`?
-> Answer:
+- [X] Explain benefit(s) using `client-side routing`?
+> Answer: Is a Javascript managed routing option. Control over the URL site without having to wait for the server to respond with content.
 - [ ] What does AJAX stand for?
 > Answer:
 - [ ] What are `controlled components` in React?
@@ -36,9 +36,9 @@ Demonstrate your understanding of this Sprint's concepts by answering the follow
 
 Follow these steps to set up and work on your project:
 
-- [ ] Create a forked copy of this project.
-- [ ] Add TL as collaborator on GitHub.
-- [ ] Clone your OWN version of Repo (Not Lambda's by mistake!).
+- [X] Create a forked copy of this project.
+- [X] Add TL as collaborator on GitHub.
+- [X] Clone your OWN version of Repo (Not Lambda's by mistake!).
 - [ ] Create a new Branch on the clone: `git checkout -b <firstName-lastName>`.
 - [ ] Implement the project on this branch, committing changes regularly.
 - [ ] Push commits: `git push origin <firstName-lastName>`.
@@ -89,18 +89,18 @@ Create 3 page components to display data from 3 API endpoints:
 - `https://rickandmortyapi.com/api/character/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-characters)
 - `https://rickandmortyapi.com/api/location/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-locations)
 - `https://rickandmortyapi.com/api/episode/` - [`docs`](https://rickandmortyapi.com/documentation/#get-all-episodes)
-- You will need to add a EpisodeList and EpisodeCard component yourself.
-- [ ] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
-- [ ] Create a component to show a grid of data from the API.
-  - [ ] Include `useState`, `useEffect`.
-  - [ ] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
+- [X] You will need to add a EpisodeList and EpisodeCard component yourself.
+- [X] Read the [Rick & Morty API](https://rickandmortyapi.com/documentation/) docs.
+- [X] Create a component to show a grid of data from the API.
+  - [X] Include `useState`, `useEffect`.
+  - [X] Use `Axios` (or `fetch`) to make a GET request to the 3 endpoints.
   - _Example API Endpoint: `https://rickandmortyapi.com/api/character/`_
-  - [ ] Display API results using a [card](https://react.semantic-ui.com/views/card/#content-image-card) grid or [list](https://react.semantic-ui.com/elements/list/#content-icon) UI on the page.
-  - [ ] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
+  - [X] Display API results using a [card](https://react.semantic-ui.com/views/card/#content-image-card) grid or [list](https://react.semantic-ui.com/elements/list/#content-icon) UI on the page.
+  - [X] Design each 'page' layout based on the available fields. (See docs for [schema](https://rickandmortyapi.com/documentation/#character-schema) details.)
   - [ ] Use a styling or component library for part of or all of your application. (Pick at least 1 of: [Semantic-UI](https://react.semantic-ui.com), [React Bootstrap](https://react-bootstrap.github.io/), [Material-UI](https://material-ui.com/), [styled components](https://www.styled-components.com/), [emotion](https://emotion.sh/docs/introduction)), etc.
-  - [ ] Before adding routing, 'spot' check each component manually by importing into `App.js` and adding to JSX.
+  - [X] Before adding routing, 'spot' check each component manually by importing into `App.js` and adding to JSX.
 
-> 💡**Reminder:** `git commit -am 'Card UI Loading Data Successfully'`
+> 💡**Reminder:** `git commit -m 'Card UI Loading Data Successfully'`
 
 ### Part 2
 
@@ -108,8 +108,8 @@ Add a Router to this application using [React Router](https://reacttraining.com/
 
 > **Tip:** Review the [examples on the React Router site.](https://reacttraining.com/react-router/web/guides/quick-start)
 
-- [ ] Declare your routes with `<Route>` components (for each component created above.)
-  - [ ] Include `/character`, `/location` and `/episode` routes.
+- [X] Declare your routes with `<Route>` components (for each component created above.)
+  - [X] Include `/character`, `/location` and `/episode` routes.
 - [ ] In your `App` component, add a navigation menu, [tab bar](https://react.semantic-ui.com/modules/tab/#types-basic), or similar. (Hint: Make sure to use React Routers `NavLink` to link to your different pages.)
 - [ ] If you have any `<a>` tags, replace them with `<Link>` or `<NavLink>` components.
 
